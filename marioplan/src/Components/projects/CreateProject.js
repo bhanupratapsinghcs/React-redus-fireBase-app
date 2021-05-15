@@ -18,6 +18,7 @@ class CreateProject extends Component {
         e.preventDefault();
         // console.log(this.state)
         this.props.createproject(this.state);
+        this.props.history.push('/')
     }
     render() {
         const { auth } = this.props;
@@ -37,7 +38,7 @@ class CreateProject extends Component {
                     <div className="input-field">
                         <button className="btn pink lighen-1 z-depth-0">
                             Create
-                            </button>
+                        </button>
                     </div>
                 </form>
             </div>

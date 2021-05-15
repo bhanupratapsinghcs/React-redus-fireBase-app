@@ -17,7 +17,7 @@ function ProjectDetails(props) {
                         <p>{project.content}</p>
                     </div>
                     <div className="card-action lightn-4 grey-text">
-                        <div>Posted by Bhanu Pratap Singh</div>
+                        <div>Posted by {project.authorFirstName} {project.authorLastName}</div>
                         <div>17 January 2021</div>
                     </div>
                 </div>
